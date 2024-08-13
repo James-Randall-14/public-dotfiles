@@ -28,16 +28,16 @@ lvim.plugins = {
                   colors = {
                       -- For a list of colors see `lua/cyberdream/colours.lua`
                       -- Example:
-                      red = "#A54242",
-                      orange = "#AA562E",
-                      yellow = "#8C9440",
-                      green = "#E6A53F",
-                      blue = "#3B5D82",
-                      cyan = "#5E8D87",
-                      purple = "#8D6293",
-                      pink = "#7F3587",
-                      fg = "#ECDCC2",
-                      bg = "#0E1416",
+                      red = "#FF3B30",
+                      orange = "#FF9500",
+                      yellow = "#FFCC00",
+                      green = "#34C759",
+                      blue = "#007AFF",
+                      cyan = "#32ADE6",
+                      purple = "#AF52DE",
+                      pink = "#FF2D55",
+                      fg = "#D1D1D6",
+                      bg = "#1C1C1E",
                   },
               },
           })

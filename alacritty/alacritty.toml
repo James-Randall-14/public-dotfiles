@@ -14,11 +14,11 @@ dynamic_padding = true
 
 # Font Config
 [font]
-normal.family = 'Hack Nerd Font'
-bold.family = 'Hack Nerd Font'
-italic.family = 'Hack Nerd Font'
-bold_italic.family = 'Hack Nerd Font'
-size = 10
+normal.family = 'SFMono'
+bold.family = 'SFMono'
+italic.family = 'SFMono'
+bold_italic.family = 'SFMono'
+size = 11
 
 [cursor]
 style = { shape = 'Beam', blinking = 'On' }

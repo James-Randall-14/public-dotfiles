@@ -23,17 +23,16 @@ alias sl 'ls'
 # Trash shortcut
 alias trash 'mv --backup=numbered --force --target-directory=/home/james/.local/share/Trash/files/'
 
+# Set theme
+set --global GTK_THEME WhiteSur-Dark
+
+# Make Chromium run native with Wayland
+alias chromium 'chromium --enable-features=UseOzonePlatform --ozone-platform=wayland'
+
 # Setup FZF
 fzf --fish | source
 set --global FZF_CTRL_T_OPTS '--no-multi 
 --bind=tab:down,btab:up --pointer=→ --color=bg+:black'
-set --global FZF_DEFAULT_OPTS '
-  --color=fg:#ecdcc2,fg+:#ecdcc2,bg:#0E1416,bg+:#0E1416
-  --color=hl:#3b5d82,hl+:#5485b9,info:#afaf87,marker:#6e4d73
-  --color=prompt:#aa562e,spinner:#e6a53f,pointer:#e6a53f,header:#87afaf
-  --color=border:#262626,label:#aeaeae,query:#d9d9d9
-  --border="rounded" --border-label="" --preview-window="border-rounded" --prompt="> "
-  --marker=">" --pointer="◆" --separator="─" --scrollbar="│"'
 
 # Setup Zoxide
 zoxide init fish | source

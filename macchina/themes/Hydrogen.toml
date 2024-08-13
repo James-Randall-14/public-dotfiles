@@ -23,7 +23,7 @@ visible         = true
 [box]
 border          = "rounded"
 visible         = true
-title           = "─disco-rice─"
+title           = "─sur-rice"
 
 [box.inner_margin]
 x               = 1
