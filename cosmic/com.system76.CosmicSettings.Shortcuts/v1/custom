@@ -1,0 +1,210 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Right",
+    ): MoveToOutput(Right),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "u",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Left",
+    ): MoveToOutput(Left),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Down",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Up",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Up",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Up",
+    ): System(VolumeRaise),
+    (
+        modifiers: [
+            Super,
+        ],
+    ): System(Launcher),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Up",
+    ): MoveToPreviousWorkspace,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Down",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Down",
+    ): System(VolumeLower),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "i",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "k",
+    ): Move(Up),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "t",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "x",
+    ): Close,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "q",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "a",
+        description: Some("Open Alacritty"),
+    ): Spawn("alacritty"),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "s",
+    ): System(Screenshot),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "period",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "n",
+    ): Minimize,
+    (
+        modifiers: [],
+        key: "Print",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "comma",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Down",
+    ): MoveToNextWorkspace,
+}
